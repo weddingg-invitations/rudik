@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
         mounth = 7,
         dey = 11;
 
-    const deadline = new Date(year, mounth, dey);
+    const deadline = new Date(year, (mounth - 1), (dey + 1));
     console.log(deadline);
     // ----------------------------------
-    
+
     // id таймера
     let timerId = null;
     // склонение числительных

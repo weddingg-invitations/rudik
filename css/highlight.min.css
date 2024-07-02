@@ -118,3 +118,11 @@
 img{
     border-radius: 10px !important;
 }
+.imgrotate{
+    animation:animete 10s linear infinite;
+}
+
+@keyframes animete {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
